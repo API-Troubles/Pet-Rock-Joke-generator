@@ -13,17 +13,10 @@ img {
 }
 
 .title {
-    position: absolute;
-    left: 22.85%;
-    right: 20.62%;
-    top: 8.2%;
-    bottom: 74.22%;
-
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 90px;
     line-height: 124px;
-    text-align: center;
 }
