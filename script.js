@@ -7,8 +7,9 @@ function httpGet(theUrl)
 }
 
 //Get jokes from a json file, thanks ChatGPT for the jokes!
-const jokesJson = httpGet("/jokes.json");
-const obj = JSON.parse(jokesJson);
+const joke_json = httpGet("/jokes.json")
+const obj = JSON.parse(joke_json);
 
 //Get jokes lol
 var joke = obj[Math.floor(Math.random()*obj.length)]["joke"];
+document.getElementById("jokeDialogueBox").innerHTML = joke;
