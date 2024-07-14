@@ -10,3 +10,5 @@ Did you want some horrible rock jokes? Well, you've arrived! This site provides 
 Thanks to Dave Alger for the dialogue box used in this project! I modified his to change the colours and moved the pointy triangle thing to the right.
 
 ChatGPT was used for this project purely to generate the jokes used. Nowhere on the internet could I find a rock joke generator, so AI is the answer!
+
+The rock used for this project can be found [here](https://www.freeiconspng.com/img/49444)!
