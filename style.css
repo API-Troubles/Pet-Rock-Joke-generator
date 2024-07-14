@@ -1,22 +1,65 @@
-html {
-  height: 100%;
-  width: 100%;
-}
-
 .center {
   text-align: center;
 }
 
-img {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.title {
+#title {
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 90px;
     line-height: 124px;
+}
+
+.grapeNuts {
+  font-family: "Grape Nuts", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#rock {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  display: block;
+  margin: auto;
+}
+
+/* CREDIT: Dave Alger https://codepen.io/run-time/pen/VNRBJd */
+/* Modified to math my use */
+.bubble {
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  position: relative;
+  font-family: "Grape Nuts", cursive;
+  font-size: 18px;
+  line-height: 24px;
+  width: 300px;
+  background: #D9D9D9;
+  border-radius: 40px;
+  padding: 24px;
+  text-align: center;
+  color: #000;
+}
+
+.bubble-bottom-left:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 24px solid #D9D9D9;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #D9D9D9;
+  border-bottom: 20px solid transparent;
+  right: 75px;
+  bottom: -24px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: lightgray;
+  padding-left: 10px;
 }

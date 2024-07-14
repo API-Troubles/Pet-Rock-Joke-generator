@@ -11,13 +11,23 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+  <!-- End Fonts -->
 </head>
 
-<body class="center">
-  <h1 class="title">The Ultimate Pet Rock</h1>
-  <img src="/static/rock.png">
-  <p id="jokeDialogueBox"></p>
+<body>
+  <h1 class="center title">The Ultimate Pet Rock</h1>
+  <p class="center grapeNuts">It tells jokes! Hopefully funny jokes lol. Reload for another one!</p>
+  <div id="jokeDialogueBox" class="bubble bubble-bottom-left"></div>
+
+  <img id="rock" src="/static/rock.png">
+
+  <div id="footer">
+    <p>Made by Felix G. Made for the arcade Hackathon. Credit for Dialogue Box: <a href="https://www.davealger.com/">Dave Alger</a></p>
+    <p>Jokes were made with ChatGPT.</p>
+  </div>
 </body>
 
 </html>
