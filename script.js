@@ -10,5 +10,5 @@ function httpGet(theUrl)
 const jokesJson = httpGet("/jokes.json");
 const obj = JSON.parse(jokesJson);
 
-//Get joke
+//Get jokes lol
 var joke = obj[Math.floor(Math.random()*obj.length)]["joke"];
